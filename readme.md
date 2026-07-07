@@ -1,10 +1,18 @@
 # Streamlit Demo Application
 
-## Description
+## Project Description
 
-This project demonstrates the basic widgets and functionalities of Streamlit using Python.
+This project demonstrates the basic widgets and functionalities of **Streamlit** using Python. It includes commonly used Streamlit components for building interactive web applications.
 
-## Concepts Covered
+## 🌐 Live Demo
+
+**Try the application here:**
+
+**https://aycnwtjybmnr2l9zsmfvkg.streamlit.app**
+
+---
+
+## Features / Concepts Covered
 
 - Title
 - Header
@@ -12,10 +20,10 @@ This project demonstrates the basic widgets and functionalities of Streamlit usi
 - Text
 - Markdown
 - Write
-- Success
-- Info
-- Warning
-- Error
+- Success Message
+- Info Message
+- Warning Message
+- Error Message
 - Checkbox
 - Radio Button
 - Selectbox
@@ -41,6 +49,8 @@ This project demonstrates the basic widgets and functionalities of Streamlit usi
 - Sidebar
 - File Uploader
 
+---
+
 ## Technologies Used
 
 - Python
@@ -48,7 +58,50 @@ This project demonstrates the basic widgets and functionalities of Streamlit usi
 - Pandas
 - NumPy
 
-## Run
+---
+
+## Installation
+
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Run the Application
 
 ```bash
 streamlit run app.py
+```
+
+---
+
+## Project Structure
+
+```
+streamlit-demo/
+│
+├── app.py
+├── sample.csv
+├── sample_image.jpg
+├── sample_video.mp4
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
+
+---
+
+## Live Application
+
+**Streamlit Cloud URL**
+
+https://aycnwtjybmnr2l9zsmfvkg.streamlit.app
+
+---
+
+## Author
+
+**Hariharan**
